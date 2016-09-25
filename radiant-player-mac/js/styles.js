@@ -71,3 +71,10 @@ try {
 } catch (e) {
   // Ignore if this fails
 }
+
+// enable blur for Safari (spotify-black support only currently)
+var backgroundBlur = window.GoogleMusicApp.preferenceForKey("backgroundblur.enabled");
+
+if (backgroundBlur) {
+    window.document.body.classList.add("background-blur");
+}

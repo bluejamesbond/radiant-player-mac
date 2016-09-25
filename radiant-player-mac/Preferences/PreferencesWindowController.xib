@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1912" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="PreferencesWindowController">
@@ -270,12 +270,12 @@
             <point key="canvasLocation" x="260" y="281.5"/>
         </customView>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customView id="D7u-3l-nVG" userLabel="Appearance Preferences">
-            <rect key="frame" x="0.0" y="0.0" width="397" height="194"/>
+        <customView misplaced="YES" id="D7u-3l-nVG" userLabel="Appearance Preferences">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="233"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <button id="hgY-IX-Stx">
-                    <rect key="frame" x="140" y="48" width="333" height="18"/>
+                <button misplaced="YES" id="hgY-IX-Stx">
+                    <rect key="frame" x="140" y="91" width="333" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" title="Use custom application appearance" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="8Ld-sp-HDA">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -286,7 +286,7 @@
                     </connections>
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="VL8-gZ-dPu">
-                    <rect key="frame" x="53" y="146" width="326" height="28"/>
+                    <rect key="frame" x="53" y="185" width="326" height="28"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="center" title="Changing these preferences will require a restart of the application to take effect" id="z4T-NV-tMN">
                         <font key="font" metaFont="smallSystem"/>
@@ -294,8 +294,8 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="yZz-74-VDm">
-                    <rect key="frame" x="33" y="22" width="103" height="17"/>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" id="yZz-74-VDm">
+                    <rect key="frame" x="33" y="63" width="103" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Style:" id="IEE-Nf-LIX">
                         <font key="font" metaFont="system"/>
@@ -303,15 +303,12 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="zhW-EN-10a">
-                    <rect key="frame" x="47" y="135" width="338" height="5"/>
+                <box verticalHuggingPriority="750" boxType="separator" id="zhW-EN-10a">
+                    <rect key="frame" x="47" y="174" width="338" height="5"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
-                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <font key="titleFont" metaFont="system"/>
                 </box>
-                <popUpButton verticalHuggingPriority="750" id="DeQ-rh-16G">
-                    <rect key="frame" x="140" y="17" width="248" height="26"/>
+                <popUpButton verticalHuggingPriority="750" misplaced="YES" id="DeQ-rh-16G">
+                    <rect key="frame" x="140" y="58" width="248" height="26"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" arrowPosition="arrowAtCenter" selectedItem="YVY-Hd-cdu" id="SuW-cx-g3z">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
@@ -336,7 +333,7 @@
                     </connections>
                 </popUpButton>
                 <button id="Ok3-NF-VQX">
-                    <rect key="frame" x="140" y="110" width="333" height="18"/>
+                    <rect key="frame" x="140" y="149" width="333" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" title="Use custom title bar" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="I4Z-Ky-gCL">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -347,7 +344,7 @@
                     </connections>
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="SCo-65-NqE">
-                    <rect key="frame" x="53" y="112" width="83" height="17"/>
+                    <rect key="frame" x="53" y="151" width="83" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Appearance:" id="q47-FP-1Ro">
                         <font key="font" metaFont="system"/>
@@ -356,7 +353,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="MZP-Mn-yFA">
-                    <rect key="frame" x="140" y="78" width="314" height="29"/>
+                    <rect key="frame" x="140" y="117" width="314" height="29"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" id="1ra-uA-vMS">
                         <font key="font" metaFont="smallSystem"/>
@@ -366,8 +363,28 @@ with moving the window or the player freezing</string>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
+                <button misplaced="YES" id="c7j-Sk-7Td">
+                    <rect key="frame" x="140" y="35" width="333" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Use background blur" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Ff2-dV-qpF">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="qKJ-ks-0kW" name="value" keyPath="values.backgroundblur.enabled" id="Xnu-mV-d6f"/>
+                    </connections>
+                </button>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" misplaced="YES" setsMaxLayoutWidthAtFirstLayout="YES" id="IxY-rT-XlM">
+                    <rect key="frame" x="140" y="12" width="186" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" title="Applies to Black theme only" id="qUM-BE-f1L">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
             </subviews>
-            <point key="canvasLocation" x="292.5" y="-7"/>
+            <point key="canvasLocation" x="235.5" y="-186.5"/>
         </customView>
         <customObject id="Qr1-oe-yDR" customClass="SUUpdater"/>
         <viewController id="l7y-90-Hoh" customClass="GeneralPreferencesViewController">
@@ -411,7 +428,7 @@ with moving the window or the player freezing</string>
         </viewController>
         <userDefaultsController representsSharedInstance="YES" id="qKJ-ks-0kW"/>
         <customView id="Vkx-Or-RjQ" userLabel="Navigation Preferences">
-            <rect key="frame" x="0.0" y="-5" width="478" height="173"/>
+            <rect key="frame" x="0.0" y="0.0" width="478" height="173"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
             <subviews>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="rDq-Nn-Fr7">
@@ -591,12 +608,9 @@ with moving the window or the player freezing</string>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="wli-GL-bJ9">
+                <box verticalHuggingPriority="750" boxType="separator" id="wli-GL-bJ9">
                     <rect key="frame" x="12" y="165" width="368" height="5"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
-                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <font key="titleFont" metaFont="system"/>
                 </box>
                 <slider verticalHuggingPriority="750" id="AH3-Ok-1RM">
                     <rect key="frame" x="204" y="294" width="121" height="20"/>
@@ -643,7 +657,7 @@ when the track is rated "thumbs up"</string>
             <attributedString key="userComments">
                 <fragment content="labels">
                     <attributes>
-                        <font key="NSFont" metaFont="smallSystem"/>
+                        <font key="NSFont" metaFont="controlContent" size="11"/>
                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                     </attributes>
                 </fragment>
@@ -717,12 +731,9 @@ when the track is rated "thumbs up"</string>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="JjR-H1-mF0">
+                <box verticalHuggingPriority="750" boxType="separator" id="JjR-H1-mF0">
                     <rect key="frame" x="12" y="198" width="396" height="5"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
-                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <font key="titleFont" metaFont="system"/>
                 </box>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="bbw-AT-mXA">
                     <rect key="frame" x="141" y="86" width="261" height="28"/>
