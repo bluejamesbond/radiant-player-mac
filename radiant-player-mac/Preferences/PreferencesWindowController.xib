@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1912" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="PreferencesWindowController">
@@ -384,7 +384,7 @@ with moving the window or the player freezing</string>
                     </textFieldCell>
                 </textField>
             </subviews>
-            <point key="canvasLocation" x="235.5" y="-186.5"/>
+            <point key="canvasLocation" x="274.5" y="-192.5"/>
         </customView>
         <customObject id="Qr1-oe-yDR" customClass="SUUpdater"/>
         <viewController id="l7y-90-Hoh" customClass="GeneralPreferencesViewController">
@@ -394,6 +394,10 @@ with moving the window or the player freezing</string>
         </viewController>
         <viewController id="hV5-O3-L0a" customClass="AppearancePreferencesViewController">
             <connections>
+                <outlet property="BlurPrefs" destination="c7j-Sk-7Td" id="v2n-Xc-HAV"/>
+                <outlet property="BlurTextPrefs" destination="IxY-rT-XlM" id="SBi-OU-1lh"/>
+                <outlet property="StyleChoosePrefs" destination="DeQ-rh-16G" id="OeB-u0-3qe"/>
+                <outlet property="StyleChooseTextPrefs" destination="yZz-74-VDm" id="Ak3-2Y-XZW"/>
                 <outlet property="view" destination="D7u-3l-nVG" id="f2q-9n-B6z"/>
             </connections>
         </viewController>

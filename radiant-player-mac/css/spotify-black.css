@@ -748,7 +748,7 @@ paper-button.nav-item-container.sub:focus {
         backface-visibility: hidden;
     }
     
-    .background-blur #nav, #nav-container, .material .nav-toolbar{
+    .background-blur #nav, #nav-container, .material .nav-toolbar {
         background-color: transparent !important;
         border-right: none !important;
     }

@@ -14,4 +14,9 @@
 
 @property NSArray *sortDescriptors;
 
+@property (assign) IBOutlet NSButton *BlurPrefs;
+@property (assign) IBOutlet NSTextField *BlurTextPrefs;
+@property (assign) IBOutlet NSButton *StyleChoosePrefs;
+@property (assign) IBOutlet NSTextField *StyleChooseTextPrefs;
+
 @end

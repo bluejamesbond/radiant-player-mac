@@ -105,3 +105,9 @@ paper-dialog textarea::selection {
 .focused-line {
     background: #039cac!important;
 }
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .background-blur paper-header-panel[mode="waterfall"] #material-app-bar {
+        background-color: rgba(3, 156, 172, 0.4) !important;
+    }
+}
